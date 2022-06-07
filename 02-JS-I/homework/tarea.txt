@@ -1,0 +1,36 @@
+Variables:
+
+Las variables son palabras a las cuales se les puede asignar un valor numerico o string.
+Pueden ser modificadas y una vez que tienen su valor asignado se pueden llamar en cualquier momento. 
+Hay variables que no pueden ser modificadas, son llamadas constantes.
+
+Strings:
+
+Los "Strings" o cadenas, son caracteres en forma de texto. Osea, no se pueden hacer calculos matemáticos con ellos, y son un tipo de dato.
+
+Funciones:
+Las funciones son instrucciones que se preparan para hacer algo.
+Un ejemplo seria: si te digo "carnaval" vos apreta el "pomo".
+Entonces, cada vez que yo diga "carnaval" vos vas a apretar el pomo.
+Lo mismo pasa en los lenguajes de programacion. Se programan funciones para realizar calculos por ejemplo.
+
+Argumentos:
+El argumento "return" o "retorno" devuelve el valor de una variable o el resultado de una funcion.
+
+Declaraciones IF:
+
+"IF" se utiliza para validar informacion. Por ej. si yo te digo:
+Cuando vayas por la calle, si ves un auto color rojo tenes que gritar "ROJO", si no ves un auto color rojo, no digas nada.
+En la programacion pasa lo mismo, y se utiliza esa declaracion en conjunto con "else".
+ Seria algo asi:
+ IF (cuando caminas por la calle = ves un auto rojo){
+     grita "ROJO"
+ }
+ {sino = no digas nada
+ }
+
+ Booleanos:
+
+ Los Booleanos son para declarar un estado, por ej. encendido o apagado, verdadero o falso, 0 o 1.
+ Se utilizan para para validar datos, por ej. Si tu nombre es "pepe" es true(verdadero) caso contrario es false (falso)
+ 
