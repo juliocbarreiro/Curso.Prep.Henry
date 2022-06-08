@@ -7,7 +7,7 @@ const nuevaString = 'Hola';
 const nuevoNum = 6;
 
 // Crea una variable booleana:
-const nuevoBool = 'True';
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return devolverString;
+  return str;
 }
 
 
@@ -187,10 +187,13 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) {
-    console.log ('El numero es positivo');
+    return "Es positivo";
   }
-    else
-    console.log ('El numero es negativo');
+    else if (numero == 0){
+    return false;
+    }
+    else {
+      return "Es negativo";}
 }
 
 
@@ -199,7 +202,7 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
   
-console.log (str + "!");
+return str + "!";
 }
 
 
@@ -207,7 +210,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  console.log (nombre + " " + apellido);
+  return nombre + " " + apellido;
 }
 
 
@@ -215,7 +218,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  console.log ("Hola" + " " + nombre);
+  return "Hola" + " " + nombre + "!";
 }
 
 
@@ -249,7 +252,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var dolar = euro * 1.20;
-  console.log ("Equivale a" + " " + dolar + " " + "dolares");
+  return dolar;
 
 }
 
@@ -265,7 +268,7 @@ function esVocal(letra){
   return "Es vocal"; 
   } 
   else {
-    return "Dato incorrecto"
+    return "Dato incorrecto"; 
 }
 }
 
