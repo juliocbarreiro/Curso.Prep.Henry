@@ -153,9 +153,10 @@ function multiplicarArgumentos() {
     for(var i = 0; i < arguments.length; i++){
       total = arguments[i] * total;
     }
-  return total;
+   return total;
   }
 }
+
 
 
 function cuentoElementos(arreglo){
@@ -166,8 +167,6 @@ for( var i = 0; i < arreglo.length; i++){
 if(arreglo [i] > 18){
 contador = contador + 1;
 }
-
-  
 }
 return contador;
 }
